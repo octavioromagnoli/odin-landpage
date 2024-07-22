@@ -18,7 +18,8 @@ a {
   height: 100vh;
 }
 
-.page-one {
+.page-one,
+.footer {
   background-color: #1F2937;
   color: white;
 }
@@ -135,7 +136,7 @@ ul {
   color: #1f2937;
   font-weight: 100;
   font-style: italic;
-  line-height: 60px;
+  line-height: 50px;
 }
 
 .author-quote {
@@ -149,3 +150,53 @@ ul {
   max-width: 900px;
 }
 
+.page-four {
+  align-items: center;
+  justify-content: center;
+}
+
+.content-p4{
+  flex: auto;
+  display: flex;
+  align-items: center;
+  display: flex;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 25px;
+  font-size: 13px;
+}
+
+.call-card{
+  background-color: #3882F6;
+  color: white;
+  display: flex;
+  width: 1000px;
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-left {
+  margin: 30px 0px;
+}
+
+.call-card h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.call-card button {
+  padding: 10px 22px;
+  font-size: 16px;
+  background-color: #3882F6;
+  color: white;
+  border-color: white;
+  border-style: solid;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
