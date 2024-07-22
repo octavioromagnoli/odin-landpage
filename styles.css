@@ -1,6 +1,8 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, sans-serif, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 a {
@@ -17,26 +19,55 @@ a {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 15px 0px;
+    margin: 0px 75px;
 }
 
 .header ul {
     list-style-type: none;
     display: flex;
-    gap: 20px;
+    gap: 27px;
 }
 
-.header a {
+.header a, .descripcion {
     color: #E5E7EB;
-    font-size: 18px;
-    font-family: Hero;
+    font-size: 17px;
+}
+
+.logo {
+    font-size: 24px;
 }
 
 .content-p1 {
     flex: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin: 0px 75px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+    margin-right: 200px;
+}
+
+.left-content{
+    flex-wrap: wrap;
+    flex-basis: 300px;
+}
+
+.signup-button{
+    background-color: #3882F6;
+    border-style: none;
+    padding: 8px 20px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+}
+
+.descripcion{
+    margin-bottom: 10px;
 }
