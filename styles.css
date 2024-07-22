@@ -10,7 +10,9 @@ a {
 }
 
 .page-one,
-.page-two {
+.page-two,
+.page-three,
+.page-four {
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -118,4 +120,32 @@ ul {
 
 .photo-cards p {
   font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
 }
+
+.page-three{
+  background-color: #E5E7EB;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 100;
+  font-style: italic;
+  line-height: 60px;
+}
+
+.author-quote {
+  font-weight: 600;
+  font-size: 25px;
+  text-align: end;
+  font-style: oblique;
+}
+
+.quote-div {
+  max-width: 900px;
+}
+
